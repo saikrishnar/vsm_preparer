@@ -2,3 +2,7 @@ python convert_labels.py
 python quincontext.py
 cat *.quindur > telugu.quindur
 
+
+************
+
+cut -d ' ' -f 2- vectors.txt > representation.txt
