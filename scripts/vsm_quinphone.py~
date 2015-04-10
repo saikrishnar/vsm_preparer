@@ -1,0 +1,29 @@
+#! /usr/bin/python
+import os
+
+def main(folder):
+     phone_array = []
+     f = open('../dictionary/vectors.txt')
+     for line in f:
+         phone = line.split('\n')[0]
+         phone_array.append(phone)
+     f.close()
+     vsm_array = []
+     f = open('../dictionary/representation.txt')
+     for line in f:
+          representation = line.strip('\n')      
+          vsm_array.append(representation)
+     f.close()
+     
+     f = open('../lab/tel.quindur')
+     g = open('../lab/tel_vsm.quindur','w')
+     for line in f:
+         chars = line.split('\n')
+         for phone in chars:
+              
+
+
+
+
+if __name__ == '__main__':
+    main()

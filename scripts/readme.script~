@@ -1,0 +1,3 @@
+python convert_labels.py
+python quincontext.py
+cat *.quindur > telugu.quindur
